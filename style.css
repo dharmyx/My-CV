@@ -229,20 +229,20 @@ html {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 900;
-    font-family: 'Muli', Roboto;
+    font-family: 'Comfortaa', cursive;
     margin: 10px 0;
 }
 
 h2 {
     font-size: 30px;
-    font-family: 'Muli', Roboto;
+    font-family: 'Comfortaa', cursive;
 }
 
 h5 {
     font-size: 18px;
-    font-family: 'Muli', Roboto;
+    font-family: 'Comfortaa', cursive;
 }
 
 h6 {
@@ -499,6 +499,100 @@ a {
     overflow: auto
 }
 
+.portfolio-column1,
+.portfolio-column2,
+.portfolio-column3,
+.portfolio-column4,
+.portfolio-column5,
+.portfolio-column6,
+.portfolio-column7,
+.portfolio-column8 {
+    border: 1px solid #d6d6d6;
+    
+}
+.portfolio-image1 {
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    background-image: url(img/food-delivery-dashboard.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.portfolio-image2 {
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    background-image: url(img/Africap-consulting.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.portfolio-image3 {
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    background-image: url(img/Travel-guide.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.portfolio-image4 {
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    background-image: url(img/Moveup-Gym.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.portfolio-image5 {
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    background-image: url(img/Easybank-site.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.portfolio-image6 {
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    background-image: url(img/Mini-trivia-quiz.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.portfolio-image7 {
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    background-image: url(img/Temp-converter.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.portfolio-image8 {
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    background-image: url(img/Calculator.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.facebook,
+.twitter,
+.instagram,
+.linkedin,
+.github,
+.email,
+.snapchat {
+    padding: 5px;
+    font-size: 1.2rem;
+}
 .w3-bar-block .w3-dropdown-hover,
 .w3-bar-block .w3-dropdown-click {
     width: 100%
