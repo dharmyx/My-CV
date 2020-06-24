@@ -498,90 +498,182 @@ a {
     z-index: 1;
     overflow: auto
 }
-
-.portfolio-column1,
-.portfolio-column2,
-.portfolio-column3,
-.portfolio-column4,
-.portfolio-column5,
-.portfolio-column6,
-.portfolio-column7,
-.portfolio-column8 {
-    border: 1px solid #d6d6d6;
-    
+/*
+.portfolio-column1 {
+    border: 1px solid rgb(214, 214, 214, 0.5);
+    border-radius: 10px;
+    margin: 20px auto;
 }
+.portfolio-column2 {
+    border: 1px solid rgb(214, 214, 214, 0.5);
+    border-radius: 10px;
+    margin: 20px auto;
+}
+.portfolio-column3 {
+    border: 1px solid rgb(214, 214, 214, 0.5);
+    border-radius: 10px;
+    margin: 20px auto;
+}
+.portfolio-column5 {
+    border: 1px solid rgb(214, 214, 214, 0.5);
+    border-radius: 10px;
+    margin: 20px auto;
+}
+.portfolio-column6 {
+    border: 1px solid rgb(214, 214, 214, 0.5);
+    border-radius: 10px;
+    margin: 20px auto;
+}
+.portfolio-column8 {
+    border: 1px solid rgb(214, 214, 214, 0.5);
+    border-radius: 10px;
+    margin: 20px auto;
+}*/
 .portfolio-image1 {
     width: 100%;
-    height: 150px;
+    height: 200px;
     margin: auto;
     background-image: url(img/food-delivery-dashboard.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 10px;
 }
 .portfolio-image2 {
     width: 100%;
-    height: 150px;
+    height: 200px;
     margin: auto;
     background-image: url(img/Africap-consulting.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 10px;
 }
 .portfolio-image3 {
     width: 100%;
-    height: 150px;
+    height: 200px;
     margin: auto;
     background-image: url(img/Travel-guide.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
+    border-radius: 10px;
+}/*
 .portfolio-image4 {
     width: 100%;
-    height: 150px;
+    height: 200px;
     margin: auto;
     background-image: url(img/Moveup-Gym.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
+    border-radius: 10px;
+}*/
 .portfolio-image5 {
     width: 100%;
-    height: 150px;
+    height: 200px;
     margin: auto;
     background-image: url(img/Easybank-site.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 10px;
 }
 .portfolio-image6 {
     width: 100%;
-    height: 150px;
+    height: 200px;
     margin: auto;
     background-image: url(img/Mini-trivia-quiz.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
+    border-radius: 10px;
+}/*
 .portfolio-image7 {
     width: 100%;
-    height: 150px;
+    height: 200px;
     margin: auto;
     background-image: url(img/Temp-converter.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
+    border-radius: 10px;
+}*/
+.portfolio-column1,
+.portfolio-column2,
+.portfolio-column3,
+.portfolio-column5,
+.portfolio-column6,
+.portfolio-column8 {
+    position: relative;
+    width: auto;
+  }
+.portfolio-column1,
+.portfolio-column2,
+.portfolio-column3,
+.portfolio-column5,
+.portfolio-column6,  
 .portfolio-image8 {
     width: 100%;
-    height: 150px;
+    height: 200px;
     margin: auto;
     background-image: url(img/Calculator.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 10px;
 }
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0,0,0, .5);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+.portfolio-column1:hover .overlay,
+.portfolio-column2:hover .overlay,
+.portfolio-column3:hover .overlay,
+.portfolio-column5:hover .overlay,
+.portfolio-column6:hover .overlay,
+.portfolio-column8:hover .overlay {
+    height: 100%;
+    cursor: pointer;
+  }
+  .click {
+    width: fit-content;
+    background-color: #209688;
+    color: #ffffff;
+    border: 1px solid #209688;
+    border-radius: 6px;
+    padding: 4px 5px;
+    font-size: 1rem;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  /*
+.click {
+    width: fit-content;
+    background-color: #209688;
+    color: #ffffff;
+    border: 1px solid #209688;
+    border-radius: 6px;
+    padding: 4px 5px;
+}
+.click:hover {
+    border: 1px solid #0e695f;
+    background-color: #0e695f;
+    transition: all 1s;
+}*/
 
 .facebook,
 .twitter,
