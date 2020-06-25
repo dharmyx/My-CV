@@ -635,6 +635,12 @@ a {
     height: 0;
     transition: .5s ease;
   }
+  @media(hover: hover) and (pointer: fine) {
+    .portfolio-column1:hover .overlay {
+        height: 100%;
+    cursor: pointer;
+    }
+}
 .portfolio-column1:hover .overlay,
 .portfolio-column2:hover .overlay,
 .portfolio-column3:hover .overlay,
