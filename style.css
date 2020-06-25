@@ -643,6 +643,8 @@ a {
     }
 }*/
 .portfolio-column1:hover .overlay,
+.portfolio-column1:active .overlay,
+.portfolio-column1:focus .overlay,
 .portfolio-column2:hover .overlay,
 .portfolio-column3:hover .overlay,
 .portfolio-column5:hover .overlay,
