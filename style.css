@@ -617,7 +617,7 @@ a {
     width: 100%;
     height: 200px;
     margin: auto;
-    background-image: url(img/Calculator.png);
+    background-image: url(img/dglamfashion.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -665,7 +665,20 @@ a {
     transform: translate(-50%, -50%);
     text-align: center;
   }
-
+.fa-sitemap,
+.fa-fingerprint,
+.fa-html5,
+.fa-css3-alt,
+.fa-bootstrap,
+.fa-js-square,
+.fa-github,
+.fa-figma,
+.fa-adobe,
+.fa-salesforce {
+    color: #209688;
+    padding-right: 10px;
+    font-size: 1.2rem;
+}
 .facebook,
 .twitter,
 .instagram,
