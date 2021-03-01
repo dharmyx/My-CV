@@ -627,7 +627,7 @@ a {
     width: 100%;
     height: 200px;
     margin: auto;
-    background-image: url(img/Travel-guide.png);
+    background-image: url(img/youngpreneurceo.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -683,7 +683,7 @@ div.tech-stacks {
     padding-bottom: 10px;
 }
 p.tech-stack-text {
-    font-size: 1rem;
+    font-size: .85rem;
 }
 .fa-sitemap,
 .fa-fingerprint {
@@ -698,9 +698,10 @@ p.tech-stack-text {
 .fa-github,
 .fa-figma,
 .fa-adobe,
+.fa-wordpress,
 .fa-salesforce {
     color: #209688;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .facebook,
